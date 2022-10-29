@@ -28,6 +28,7 @@ To change the captcha length, simply add argument `length` to `solve_captcha()` 
 
 To change the model (in case the default model isn't working), pass the new model as *base 64 encoded* string to `model` argument
 
+    >>> new_model = 'eyJ...J9'
     >>> svg_captcha_solver.solve_captcha(svg_captcha, model=new_model)
 
 
